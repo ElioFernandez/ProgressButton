@@ -21,7 +21,7 @@ struct ContentView: View {
     }
     
     var bottomButton: some View {
-        LoadingButton(title: "Comprar ticket",
+        LoadingButton(title: "Buy ticket",
                       duration: 2,
                       background: .black,
                       loadingTint: .white.opacity(0.3)
