@@ -8,31 +8,56 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var count: Int = 0
     
     var body: some View {
         VStack {
             Spacer()
-            Text("\(count)")
-                .font(.largeTitle)
-            Spacer()
-            bottomButton
+            successButton
+            failureButton
+            warningButton
         }
     }
     
-    var bottomButton: some View {
-        LoadingButton(title: "Buy ticket",
+    var successButton: some View {
+        LoadingButtonOnSuccess(title: "Success",
                       duration: 2,
                       background: .black,
                       loadingTint: .white.opacity(0.3)
         ) {
-            count += 1
+            // button action
         }
         .font(.system(size: 16, weight: .black))
         .foregroundStyle(.white)
         .padding()
     }
     
+    var failureButton: some View {
+        LoadingButtonOnFailure(
+            title: "Failure",
+            duration: 2,
+            background: .black,
+            loadingTint: .white.opacity(0.3)
+        ) {
+            // button action
+        }
+        .font(.system(size: 16, weight: .black))
+        .foregroundStyle(.white)
+        .padding()
+    }
+    
+    var warningButton: some View {
+        LoadingButtonOnWarning(
+            title: "Warning",
+            duration: 2,
+            background: .black,
+            loadingTint: .white.opacity(0.3)
+        ) {
+            // button action
+        }
+        .font(.system(size: 16, weight: .black))
+        .foregroundStyle(.white)
+        .padding()
+    }
 }
 
 #Preview {
