@@ -5,12 +5,6 @@ It is quite pleasant to work with SwiftUI and develop interesting things like th
 
 I like minimalism and that is why I think that in quite simple things you can also see beautiful designs.
 
-Support from:
-
-<a href="https://www.buymeacoffee.com/pratik28" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
-
-PayPal: https://www.paypal.com/paypalme/PratikGadhesariya
-
 Check it out below.
 
 
