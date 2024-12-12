@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		088FCC392C3768750009AF8B /* PogressButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088FCC382C3768750009AF8B /* PogressButtonApp.swift */; };
+		088FCC392C3768750009AF8B /* ProgressButtonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088FCC382C3768750009AF8B /* ProgressButtonApp.swift */; };
 		088FCC3B2C3768750009AF8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088FCC3A2C3768750009AF8B /* ContentView.swift */; };
 		088FCC3D2C3768780009AF8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088FCC3C2C3768780009AF8B /* Assets.xcassets */; };
 		088FCC402C3768780009AF8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088FCC3F2C3768780009AF8B /* Preview Assets.xcassets */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		088FCC352C3768750009AF8B /* PogressButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PogressButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		088FCC382C3768750009AF8B /* PogressButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PogressButtonApp.swift; sourceTree = "<group>"; };
+		088FCC382C3768750009AF8B /* ProgressButtonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButtonApp.swift; sourceTree = "<group>"; };
 		088FCC3A2C3768750009AF8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		088FCC3C2C3768780009AF8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		088FCC3F2C3768780009AF8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		088FCC2C2C3768750009AF8B = {
 			isa = PBXGroup;
 			children = (
-				088FCC372C3768750009AF8B /* PogressButton */,
+				088FCC372C3768750009AF8B /* ProgressButton */,
 				088FCC362C3768750009AF8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,16 +54,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		088FCC372C3768750009AF8B /* PogressButton */ = {
+		088FCC372C3768750009AF8B /* ProgressButton */ = {
 			isa = PBXGroup;
 			children = (
 				088FCC482C376BCF0009AF8B /* Helpers */,
-				088FCC382C3768750009AF8B /* PogressButtonApp.swift */,
+				088FCC382C3768750009AF8B /* ProgressButtonApp.swift */,
 				088FCC3A2C3768750009AF8B /* ContentView.swift */,
 				088FCC3C2C3768780009AF8B /* Assets.xcassets */,
 				088FCC3E2C3768780009AF8B /* Preview Content */,
 			);
-			path = PogressButton;
+			path = ProgressButton;
 			sourceTree = "<group>";
 		};
 		088FCC3E2C3768780009AF8B /* Preview Content */ = {
@@ -119,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 088FCC302C3768750009AF8B /* Build configuration list for PBXProject "PogressButton" */;
+			buildConfigurationList = 088FCC302C3768750009AF8B /* Build configuration list for PBXProject "ProgressButton" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -158,7 +158,7 @@
 				088FCC3B2C3768750009AF8B /* ContentView.swift in Sources */,
 				08F635EF2CED276100CFC583 /* LoadingButtonOnFailure.swift in Sources */,
 				08F635F12CED384200CFC583 /* LoadingButtonOnWarning.swift in Sources */,
-				088FCC392C3768750009AF8B /* PogressButtonApp.swift in Sources */,
+				088FCC392C3768750009AF8B /* ProgressButtonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PogressButton/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressButton/Preview Content\"";
 				DEVELOPMENT_TEAM = 5LL525MA3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -320,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PogressButton/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ProgressButton/Preview Content\"";
 				DEVELOPMENT_TEAM = 5LL525MA3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		088FCC302C3768750009AF8B /* Build configuration list for PBXProject "PogressButton" */ = {
+		088FCC302C3768750009AF8B /* Build configuration list for PBXProject "ProgressButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				088FCC412C3768780009AF8B /* Debug */,
